@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
 }
+
 .projects{
   display: flex;
   flex-direction: column;
@@ -26,9 +27,7 @@ font-size: 20px;
 line-height: 20px;
 }
 
-#languages ul li{
-  list-style: none;
-}
+
 .item{
   font-size: 30px;
 }
@@ -75,7 +74,7 @@ form {
   padding: 20px 0 0 0;
   font-size: 20px;
 }
-@media all and (min-width: 600px){
+@media all and (min-width: 700px){
   #menu{
     padding:0;
     padding-right: 10px;
