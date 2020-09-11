@@ -1,3 +1,4 @@
+
 #home{
   display: flex;
   flex-direction: column;
@@ -34,6 +35,9 @@ line-height: 20px;
 #introp{
   line-height: 50px;
 }
+
+
+
 #menu{
   padding: 0;
   display: flex;
@@ -75,6 +79,11 @@ form {
   font-size: 20px;
 }
 @media all and (min-width: 700px){
+
+
+  .project {
+    display: flex;
+    width: 100px;  }
   #menu{
     padding:0;
     padding-right: 10px;
