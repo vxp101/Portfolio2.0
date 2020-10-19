@@ -79,9 +79,16 @@ form {
 }
 @media all and (min-width: 700px){
 
+  .projectSection {
+
+    display: flex;
+
+
+  }
 
   .project {
     display: flex;
+    flex: 1;
     flex-direction: column;
     width: 250px;  }
 
