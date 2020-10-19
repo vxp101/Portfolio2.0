@@ -6,7 +6,6 @@
 
 .projects{
   display: flex;
-  flex-direction: column;
 }
 /* .projects p{
   width: 200px;
@@ -83,7 +82,9 @@ form {
 
   .project {
     display: flex;
-    width: 100px;  }
+    flex-direction: column;
+    width: 250px;  }
+
   #menu{
     padding:0;
     padding-right: 10px;
